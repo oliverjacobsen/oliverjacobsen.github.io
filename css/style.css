@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-image: url(../phxskyline.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.name img{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
